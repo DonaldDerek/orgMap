@@ -1,0 +1,29 @@
+body {
+  background: #000;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.bBlock{
+	width: 40px;
+	position: absolute;
+	background: green;
+	height: 40px;
+	top:0;
+	left: 0;
+	z-index: 9999;
+}
+.cb{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background: #eee;
+}
+.bar{
+	position: fixed;
+	bottom: 0;
+	height: 6vw;
+	width: 100%;
+	background: rgb(99, 99, 99);
+}
